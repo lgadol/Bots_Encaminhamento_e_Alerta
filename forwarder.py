@@ -4,18 +4,18 @@ from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 
 # --- CONFIGURAÇÕES ---
-API_ID = 22935753  # API_ID
-API_HASH = '82948374a5f04a7f01f0ac3566e74b70'
+API_ID = 0 # API_ID
+API_HASH = ''
 
 # Nome do arquivo de sessão que será criado para não precisar logar toda vez
 SESSION_NAME = 'forwarder_session'
 
 # --- IDs DOS CANAIS ---
 # ID do canal de ORIGEM (o canal de promoções)
-SOURCE_CHANNEL_ID = -1001154812972
+SOURCE_CHANNEL_ID = -1
 
 # ID do grupo de DESTINO (o seu grupo privado com o outro bot)
-DESTINATION_CHAT_ID = -4818380802
+DESTINATION_CHAT_ID = -1
 
 # ---------------------
 

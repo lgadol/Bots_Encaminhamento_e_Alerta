@@ -3,10 +3,10 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # --- CONFIGURAÇÕES ---
-TOKEN = "8379371681:AAGKNTyHK2AdLZO2fkAi34yuwOqBtl0vQ9s" 
+TOKEN = "" 
 
 # Para descobrir o ID, bot @userinfobot
-USER_ID_TO_NOTIFY = 1828582181  # MEU ID
+USER_ID_TO_NOTIFY = 0  # MEU ID
 
 # Lista de palavras-chave que o bot vai procurar (não diferencia maiúsculas de minúsculas)
 KEYWORDS_TO_MONITOR = ["air force", "airforce"] 
